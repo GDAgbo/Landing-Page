@@ -1,0 +1,31 @@
+.header {
+    height: 250px;
+    background-color: #1f2937;
+}
+.link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    height: 130px;
+    background-color: aquamarine;
+    max-width: 250px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.image-holder {
+    height: 100px;
+    width: fit-content;
+    background-color: aquamarine;
+}
