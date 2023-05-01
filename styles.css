@@ -1,31 +1,126 @@
-.header {
-    height: 250px;
-    background-color: #1f2937;
-}
-.link {
+.container {
+    background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-left: 150px;
-    margin-right: 100px;
+    justify-content: center;
+}
+.header-logo {
+    display: flex;
+    gap: 80px;
+    align-self: self-start;
+    margin-top: 20px;
+    margin-left: 200px;
+    color: white;
+    font-weight: 700;
+}
+.list {
+    align-self: self-start;
+    margin-top: 5px;
 }
 ul {
-    display: flex;
-    gap: 20px;
     list-style-type: none;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 20px;
 }
 a {
     text-decoration: none;
+    color: white;
 }
-.container {
-    height: 130px;
-    background-color: aquamarine;
-    max-width: 250px;
-    margin-left: 150px;
-    margin-top: 30px;
+.content {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
 }
-.image-holder {
+.sub-container {
+    display: flex;
+    gap: 40px;
+}
+.sub-container {
+    background-color: #1F2937;
+}
+.item {
+    max-width: 300px;
+    margin-bottom: 5px;
+    margin-left: 290px;
+    border: 2px solid red;
+}
+.content {
+    flex-direction: column;
+}
+.item {
+    align-self: self-start;
+}
+.image {
+    border: 2px solid red;
+    margin-bottom: 10px;
+}
+.co-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1px;
+    height: 200px;
+}
+.sub-item {
+    border: 2px solid red;
+    height: 20px;
+    width: 50px;
+}
+.sub-sub-item {
+    display: flex;
+    gap: 20px;
+}
+.co-co-container {
+    background-color: #E5E7EB;
+    height: 200px;
+}
+.co-co-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.sub-sub-sub-item {
+    width: 300px;
+    height: 20px;
+    border: 2px solid red;
+}
+.co-co-co-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal {
     height: 100px;
-    width: fit-content;
-    background-color: aquamarine;
+    width: 200px;
+    border: 2px solid red;
+}
+.modal {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.text {
+    height: 20px;
+    width: 10px;
+    border: 2px solid red;
+}
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 50px;
+}
+.sub-text {
+    height: 10px;
+    width: 50px;
+    border: 2px solid red;
 }
